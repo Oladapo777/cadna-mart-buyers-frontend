@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #e8e8e8;
+}
+
+.auth-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 16px;
+}
+
+.auth-card {
+  background: white;
+  width: 100%;
+  max-width: 540px;
+  min-height: 400px;
+  padding: 65px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  color: #a020f0;
+  font-size: 21px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.brand span span {
+  color: #ed65b5;
+}
+
+.brand-icon {
+  margin-right: 5px;
+}
+
+h2 {
+  color: #625ee9;
+  font-size: 20px;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  color: #999;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.social-button,
+input,
+.primary-button {
+  width: 100%;
+  max-width: 310px;
+  height: 42px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.social-button {
+  background: white;
+  border: 1px solid #e0e0e8;
+  color: #555;
+  cursor: pointer;
+}
+
+.google-icon {
+  color: #4285f4;
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+.facebook-icon {
+  color: #1877f2;
+  font-weight: bold;
+  margin-right: 8px;
+}
+
+.divider {
+  width: 100%;
+  max-width: 310px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #999;
+  font-size: 11px;
+  margin: 15px 0;
+}
+
+.divider span {
+  flex: 1;
+  height: 1px;
+  background: #eee;
+}
+
+input {
+  border: 1px solid #ddd;
+  padding: 0 12px;
+  outline-color: #625ee9;
+}
+
+.primary-button {
+  background: #625ee9;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.login-text {
+  font-size: 11px;
+  color: #777;
+  margin-top: 5px;
+}
+
+.login-text a {
+  color: #625ee9;
+}
+
+@media (max-width: 480px) {
+  .auth-card {
+    min-height: 420px;
+    padding: 40px 20px;
+  }
+}
+
+.code-input {
+  text-align: center;
+  letter-spacing: 12px;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 18px;
+}
+
+.social-button {
+  position: relative;
+}
+
+.social-logo {
+  position: absolute;
+  left: 20px;
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
+}
